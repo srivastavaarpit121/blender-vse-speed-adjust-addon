@@ -4,11 +4,12 @@ import bpy
 
 bl_info = {
     "name": "Sequencer Speed Effect Adjust",
+    "description": "Automatically adjusts video strip's length, based on speed effect strip's speed factor.",
     "author": "Arpit Srivastava",
     "version": (0, 1),
     "blender": (3, 0, 0),
-    "location": "Operator Search (F3) -> Sequencer Speed Effect Adjust",
-    "description": "Automatically adjusts video strip's length, based on speed effect strip's speed factor.",
+    "location": "Operator Search (F3) > Sequencer Speed Effect Adjust",
+    "doc_url": "https://github.com/srivastavaarpit121/blender-vse-speed-adjust-addon",
     "category": "Sequencer",
 }
 
